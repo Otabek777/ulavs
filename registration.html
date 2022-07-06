@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+
+    <main class="main">
+        <section class="registration">
+            <div class="registration__container">
+                <h2 class="title_h1">Регистрация в Личном кабинете</h2>
+                <div class="registration__box">
+                    <div class="input">
+                        <h6>Имя <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>ИНН <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Фамилия <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Телефон <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Отчество</h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Электронная почта <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Наименование организации <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Номер договора <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="password__text">
+                    <h5>Пароль</h5>
+                    <p>Важно! «Пароль» (не менее 8 знаков на латинской раскладке, содержащих как минимум одну заглавную букву, одну прописную букву, одну цифру</p>
+                </div>
+                <div class="registration__box">
+                    <div class="input">
+                        <h6>Пароль <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <h6>Подтверждение пароля <span>*</span></h6>
+                        <input type="text">
+                    </div>
+                </div>
+                <a href="#" class="link_pass">Сгенерировать пароль</a>
+                <div class="registration__box">
+                    <div class="input">
+                        <form action="test.php" method="post">
+                            <div class="g-recaptcha" data-sitekey="6LdFiEAUAAAAAMje4MezhWtZ97FYXKrM3LGT2_Nq"></div>
+                        </form>        
+                    </div>
+                    <div class="input">
+                        <div class="checkbox">
+                            <input type="checkbox" id="123">
+                            <label for="123">Согласие на <a href="#">обработку персональных данных</a></label>
+                        </div>
+                        <button class="reg_btn">Зарегестрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

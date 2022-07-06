@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title></title>
+</head>
+<body>
+
+    <main class="main">
+        <div class="header">
+            <div class="container">
+                <div class="header__box">
+                    <div class="header__navbar">
+                        <ul class="ul">
+                            <li class="li">
+                                <a href="#" class="item">Мои данные</a>
+                            </li>
+                            <li class="li">
+                                <a href="#" class="item active">Заявки</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__right">
+                        <a href="#" class="link_user">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6275 18.6275 24 12 24C5.37258 24 0 18.6275 0 12C0 5.37258 5.37258 0 12 0C18.6275 0 24 5.37258 24 12ZM15 7.5C15 9.15685 13.6569 10.5 12 10.5C10.3431 10.5 9 9.15685 9 7.5C9 5.84314 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84314 15 7.5ZM11.9999 13.5C8.97359 13.5 6.36591 15.2925 5.18061 17.8736C6.83105 19.788 9.27398 21 12 21C14.726 21 17.1688 19.7882 18.8193 17.8737C17.634 15.2925 15.0263 13.5 11.9999 13.5Z" fill="#003366"/>
+                            </svg>
+                            Наименование компании
+                        </a>
+                        <a href="#" class="link_go_out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 22C4.73478 22 4.48043 21.8946 4.29289 21.7071C4.10536 21.5196 4 21.2652 4 21V3C4 2.73478 4.10536 2.48043 4.29289 2.29289C4.48043 2.10536 4.73478 2 5 2H19C19.2652 2 19.5196 2.10536 19.7071 2.29289C19.8946 2.48043 20 2.73478 20 3V6H18V4H6V20H18V18H20V21C20 21.2652 19.8946 21.5196 19.7071 21.7071C19.5196 21.8946 19.2652 22 19 22H5ZM18 16V13H11V11H18V8L23 12L18 16Z" fill="#003399"/>
+                            </svg>
+                            Выйти
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="applications_step">
+            <div class="container">
+                <h2 class="title_h2">Заявка на бронирование авиабилетов и железнодорожных билетов/гостиниц</h2>
+                <div class="applications_step__box">
+                    <div class="applications_step__aside">
+                        <a href="#" class="link active">1 шаг. Личные данные</a>
+                        <a href="#" class="link active">2 шаг. Забронировать Авиа, Ж/Д, VIP зал</a>
+                        <a href="#" class="link">3 шаг. Забронировать гостиницу</a>
+                        <a href="#" class="link">4 шаг. Данные для бронирования</a>
+                    </div>
+                    <div class="applications_step__content">
+                        <div class="wrap">
+                            <a href="#" class="save">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                                    <path d="M19.7745 4.27653L15.7232 0.225187C15.5624 0.0643714 15.3695 0 15.1445 0H0.80385C0.353705 0 0 0.353705 0 0.803849V21.1252C0 21.5753 0.353705 21.929 0.80385 21.929H19.1959C19.6461 21.929 19.9998 21.5753 19.9998 21.1252L20 4.8231C20 4.62998 19.9036 4.40503 19.7748 4.27628L19.7745 4.27653ZM10.0319 1.57565V5.69136H12.0576V1.57565H13.2795V6.62394H4.72658V1.57565H10.0319ZM4.75862 20.2893V13.762H15.3373V20.2893H4.75862ZM18.3919 20.2893H16.945V12.9582C16.945 12.508 16.5913 12.1543 16.1412 12.1543H3.95482C3.50468 12.1543 3.15097 12.508 3.15097 12.9582V20.2893H1.60764V1.57565H3.15097V7.42768C3.15097 7.87782 3.50468 8.23153 3.95482 8.23153H14.1155C14.5656 8.23153 14.9193 7.87782 14.9193 7.42768V1.70427L18.392 5.1769L18.3919 20.2893Z" fill="#0099FF"/>
+                                </svg>
+                                Сохранить как черновик
+                            </a>
+                            <h5 class="title">Вы можете забронировать Авиа, Ж/Д билеты </h5>
+                            <div class="applications_tab">
+                                <button class="btn active" id="btn1">Авиа билеты</button>
+                                <button class="btn"  id="btn2">Ж/Д билеты</button>
+                            </div>
+                            <div class="radio__box">
+                                <div class="radio">
+                                    <input type="radio" id="12" name="radio">
+                                    <label for="12">Туда и обратно</label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" id="13" name="radio">
+                                    <label for="13">В одну сторону</label>
+                                </div>
+                            </div>
+                            <div class="box_input">
+                                <div class="input">
+                                    <h6>Откуда</h6>
+                                    <input type="text" placeholder="">
+                                </div>
+                                <div class="input">
+                                    <h6>Куда</h6>
+                                    <input type="text" placeholder="">
+                                </div>
+                                <div class="input">
+                                    <h6>Дата отправления</h6>
+                                    <input type="text" placeholder="">
+                                </div>
+                                <div class="input">
+                                    <h6>Дата возвращения</h6>
+                                    <input type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="box_input">
+                                <div class="select min">
+                                    <h6>Взрослые</h6>
+                                    <select name="" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <span class="icon"></span>
+                                </div>
+                                <div class="select min">
+                                    <h6>Дети</h6>
+                                    <select name="" id="">
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                    <span class="icon"></span>
+                                </div>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="1">
+                                <label for="1">VIP зал</label>
+                            </div>
+                            <div class="tab_block1 active">
+                                <div class="box_input">
+                                    <div class="input min">
+                                        <h6>номер машины</h6>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="2">
+                                        <label for="2">Только на вылет</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" id="3">
+                                        <label for="3">Только на прилет</label>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="box_input">
+                                    <div class="select max">
+                                        <h6>Выбор класса</h6>
+                                        <select name="" id="">
+                                            <option value="плацкарт">эконом</option>
+                                            <option value="плацкарт">эконом</option>
+                                            <option value="плацкарт">эконом</option>
+                                        </select>
+                                        <span class="icon"></span>
+                                    </div>
+                                    <div class="input average">
+                                        <h6>номер рейса</h6>
+                                        <input type="text" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_block2">
+                                <div class="box_input">
+                                    <div class="select max">
+                                        <h6>Выбор класса</h6>
+                                        <select name="" id="">
+                                            <option value="плацкарт">плацкарт</option>
+                                            <option value="плацкарт">плацкарт</option>
+                                            <option value="плацкарт">плацкарт</option>
+                                        </select>
+                                        <span class="icon"></span>
+                                    </div>
+                                    <div class="select min">
+                                        <h6>Вагон</h6>
+                                        <select name="" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                        <span class="icon"></span>
+                                    </div>
+                                    <div class="select min">
+                                        <h6>Место</h6>
+                                        <select name="" id="">
+                                            <option value="9">9</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                        <span class="icon"></span>
+                                    </div>
+                                </div>
+                                <div class="textarea">
+                                    <h6>Комментарий к заказу</h6>
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                            <h6 class="h6">Если в брони не нуждаетесь, нажимите на кнопку Пропустить шаг</h6>
+                            <div class="btn_box">
+                                <button class="btn_prev">Назад</button>
+                                <button class="btn_skip">Пропустить шаг</button>
+                                <button class="btn_next">Далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
